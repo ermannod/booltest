@@ -1,0 +1,100 @@
+.info-room-navbar { //navbar blu che appare (JS)
+  display: none;
+  background-color: $primary-color-dark;
+  position: fixed;
+  top: 80px;
+  height: 60px;
+  width: 100%;
+  z-index: 10000;
+  .navbar-nav .nav-item .nav-link {
+    padding: 10px;
+  }
+}
+.stacca{
+    margin-top: 150px;
+}
+.room {
+  margin-top: 20px;
+  padding-bottom: 22px;
+}
+.previev {
+  display: flex;
+}
+.previev, .top, .bottom {
+  padding: 0;
+}
+.room-img {
+  border: 1px solid black;
+  width: 100%;
+  margin: 15px auto;
+}
+.scrol-left {
+  padding: 20px;
+  h2 {
+    display: inline-block;
+  }
+  .user-img {
+    width: 70px;
+    border-radius: 50%;
+  }
+  .info {
+    margin: 30px 0 20px;
+  }
+  .other-info-container {
+    .other-info {
+      .fas {
+        margin-right: 10px;
+      }
+    }
+  }
+  .description, .services-container, .maps {
+    padding: 20px 0;
+  }
+  .services {
+    display: flex;
+  }
+}
+.section {
+  border-bottom: 1px solid $primary-color-dark;
+}
+.fix-right {
+  padding: 20px;
+  .card-scroll {
+    border: 1px solid $divider-color;
+    border-radius: 5px;
+  }
+}
+.container-admin-img {
+  display: flex;
+  justify-content: center;
+}
+
+.grafici img{
+    width: 400px;
+    height: 400px;
+}
+
+.graphic{
+    margin: 50px;
+    display: inline-block;
+}
+
+#graphic h4{
+    display: block;
+    margin-top: 20px;
+}
+
+.modif{
+    margin-left: 30px;
+}
+
+@media (max-width: 992px) {
+  .bottom {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .ul-right {
+    display: none;
+  }
+}

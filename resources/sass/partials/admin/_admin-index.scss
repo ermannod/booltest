@@ -1,0 +1,39 @@
+.admin-container {
+    margin-top: $height-header;
+    hr {
+        border: 2px solid $primary-color-dark;
+    }
+    .card {
+        border: 1px solid $primary-color-dark;
+        height: 500px;
+        min-width: 250px;
+        .card-img {
+            height: 250px;
+            width: 100%;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        h5 {
+            height: 25px;
+            overflow-y: hidden;
+        }
+        p {
+            height: 90px;
+            overflow-y: auto;
+        }
+        .btn-apartment-crud {
+            a, button {
+                width: 95px;
+                margin: 5px 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .card {
+        height: 415px!important;
+    }
+}
